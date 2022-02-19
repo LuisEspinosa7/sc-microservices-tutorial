@@ -6385,3 +6385,561 @@ Contains: Missing org.springframework.cloud:spring-cloud-starter-loadbalancer:ja
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 16:58:19.387
 !MESSAGE executing callback sts4.classpath.arCIeKij SUCCESS [done]
+
+!ENTRY org.eclipse.ui.ide 4 4 2022-02-19 18:27:32.987
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:113)
+	at org.eclipse.swt.graphics.GC.<init>(GC.java:179)
+	at org.eclipse.swt.graphics.GC.<init>(GC.java:147)
+	at org.springsource.ide.eclipse.commons.livexp.ui.DescriptionSection.createContents(DescriptionSection.java:99)
+	at org.springsource.ide.eclipse.commons.livexp.ui.GroupSection.createContents(GroupSection.java:99)
+	at org.springsource.ide.eclipse.commons.livexp.ui.GroupSection.createContents(GroupSection.java:99)
+	at org.springframework.ide.eclipse.boot.livexp.ui.DynamicSection.updateContent(DynamicSection.java:88)
+	at org.springframework.ide.eclipse.boot.livexp.ui.DynamicSection.lambda$0(DynamicSection.java:64)
+	at org.springsource.ide.eclipse.commons.livexp.core.UIValueListener$1.uiGotValue(UIValueListener.java:75)
+	at org.springsource.ide.eclipse.commons.livexp.core.UIValueListener$NotifyingJob.runInUIThread(UIValueListener.java:39)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:95)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:5101)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4579)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.ui.internal.actions.NewWizardShortcutAction.run(NewWizardShortcutAction.java:130)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:414)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5884)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1522)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5126)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4576)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1041)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:27:41.440
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:27:41.440
+!MESSAGE classpath=1 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:27:41.440
+!MESSAGE buffering callback sts4.classpath.arCIeKij gateway-service false 1
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:27:41.440
+!MESSAGE executing callback sts4.classpath.arCIeKij 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:27:41.443
+!MESSAGE executing callback sts4.classpath.arCIeKij SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:27:41.621
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:27:41.622
+!MESSAGE classpath=136 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:27:41.622
+!MESSAGE buffering callback sts4.classpath.arCIeKij gateway-service false 136
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:27:41.622
+!MESSAGE executing callback sts4.classpath.arCIeKij 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:27:41.631
+!MESSAGE executing callback sts4.classpath.arCIeKij SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:27:41.912
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:27:41.913
+!MESSAGE classpath=136 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:27:41.913
+!MESSAGE buffering callback sts4.classpath.arCIeKij gateway-service false 136
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:27:41.913
+!MESSAGE executing callback sts4.classpath.arCIeKij 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:27:41.919
+!MESSAGE executing callback sts4.classpath.arCIeKij SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-02-19 18:27:42.765
+!MESSAGE Could not download sources for org.springframework.cloud:spring-cloud-starter-gateway:3.0.6
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.cloud:spring-cloud-starter-gateway:jar:sources:3.0.6
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:304)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:269)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:233)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.springframework.cloud:spring-cloud-starter-gateway:jar:sources:3.0.6
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2022-02-19 18:27:42.765
+!MESSAGE Could not resolve artifact org.springframework.cloud:spring-cloud-starter-gateway:jar:sources:3.0.6
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2022-02-19 18:27:42.765
+!MESSAGE Missing org.springframework.cloud:spring-cloud-starter-gateway:jar:sources:3.0.6
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-02-19 18:27:53.900
+!MESSAGE Could not download sources for io.netty:netty-resolver-dns-native-macos:4.1.73.Final:osx-x86_64
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact io.netty:netty-resolver-dns-native-macos:jar:sources:4.1.73.Final
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:304)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:269)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:233)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing io.netty:netty-resolver-dns-native-macos:jar:sources:4.1.73.Final
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2022-02-19 18:27:53.900
+!MESSAGE Could not resolve artifact io.netty:netty-resolver-dns-native-macos:jar:sources:4.1.73.Final
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2022-02-19 18:27:53.900
+!MESSAGE Missing io.netty:netty-resolver-dns-native-macos:jar:sources:4.1.73.Final
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-02-19 18:28:00.146
+!MESSAGE Could not download sources for org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:3.0.5
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:sources:3.0.5
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:304)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:269)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:233)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:sources:3.0.5
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2022-02-19 18:28:00.146
+!MESSAGE Could not resolve artifact org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:sources:3.0.5
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2022-02-19 18:28:00.146
+!MESSAGE Missing org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:sources:3.0.5
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-02-19 18:28:00.907
+!MESSAGE Could not download javadoc for io.netty:netty-resolver-dns-native-macos:4.1.73.Final:osx-x86_64
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact io.netty:netty-resolver-dns-native-macos:jar:javadoc:4.1.73.Final
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:316)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:269)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:233)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing io.netty:netty-resolver-dns-native-macos:jar:javadoc:4.1.73.Final
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2022-02-19 18:28:00.908
+!MESSAGE Could not resolve artifact io.netty:netty-resolver-dns-native-macos:jar:javadoc:4.1.73.Final
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2022-02-19 18:28:00.908
+!MESSAGE Missing io.netty:netty-resolver-dns-native-macos:jar:javadoc:4.1.73.Final
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-02-19 18:28:01.198
+!MESSAGE Could not download javadoc for org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:3.0.5
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:javadoc:3.0.5
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:316)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:269)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:233)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:javadoc:3.0.5
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2022-02-19 18:28:01.198
+!MESSAGE Could not resolve artifact org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:javadoc:3.0.5
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2022-02-19 18:28:01.198
+!MESSAGE Missing org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:javadoc:3.0.5
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:28:01.246
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:28:01.247
+!MESSAGE classpath=136 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:28:01.247
+!MESSAGE buffering callback sts4.classpath.arCIeKij gateway-service false 136
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:28:01.247
+!MESSAGE executing callback sts4.classpath.arCIeKij 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:28:01.251
+!MESSAGE executing callback sts4.classpath.arCIeKij SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:29:53.090
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.arCIeKij
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:29:53.090
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.arCIeKij
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:29:53.090
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:29:53.090
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.arCIeKij => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:31:14.405
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:31:14.405
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@6acf98ce[org.springframework.tooling.boot.ls:1.28.0.202109130547(id=961)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:31:14.405
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:31:15.256
+!MESSAGE Boot LS startup time from start to initialized: 851ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:31:15.306
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.RgmBzJaUisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:31:15.306
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:31:15.306
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:31:15.306
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:31:15.306
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:31:15.306
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.RgmBzJaU => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:31:15.307
+!MESSAGE classpath=137 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:31:15.308
+!MESSAGE buffering callback sts4.classpath.RgmBzJaU gateway-service false 137
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:31:15.308
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:31:15.309
+!MESSAGE classpath=141 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:31:15.310
+!MESSAGE buffering callback sts4.classpath.RgmBzJaU bike-service false 141
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:31:15.310
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:31:15.311
+!MESSAGE classpath=141 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:31:15.312
+!MESSAGE buffering callback sts4.classpath.RgmBzJaU car-service false 141
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:31:15.312
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:31:15.313
+!MESSAGE classpath=86 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:31:15.313
+!MESSAGE buffering callback sts4.classpath.RgmBzJaU config-service false 86
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:31:15.313
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:31:15.314
+!MESSAGE classpath=132 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:31:15.315
+!MESSAGE buffering callback sts4.classpath.RgmBzJaU eureka-service false 132
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:31:15.315
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:31:15.316
+!MESSAGE classpath=149 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:31:15.316
+!MESSAGE buffering callback sts4.classpath.RgmBzJaU user-service false 149
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:31:15.317
+!MESSAGE executing callback sts4.classpath.RgmBzJaU 6 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:31:15.531
+!MESSAGE executing callback sts4.classpath.RgmBzJaU SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:32:25.484
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.RgmBzJaU
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:32:25.484
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.RgmBzJaU
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:32:25.484
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:32:25.484
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.RgmBzJaU => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:32:28.492
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:32:28.492
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@6acf98ce[org.springframework.tooling.boot.ls:1.28.0.202109130547(id=961)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:32:28.492
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:32:29.331
+!MESSAGE Boot LS startup time from start to initialized: 838ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:32:29.371
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.fXRXiEdZisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:32:29.371
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:32:29.371
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:32:29.371
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:32:29.371
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:32:29.371
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.fXRXiEdZ => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:32:29.373
+!MESSAGE classpath=137 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:32:29.373
+!MESSAGE buffering callback sts4.classpath.fXRXiEdZ gateway-service false 137
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:32:29.374
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:32:29.375
+!MESSAGE classpath=141 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:32:29.375
+!MESSAGE buffering callback sts4.classpath.fXRXiEdZ bike-service false 141
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:32:29.375
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:32:29.376
+!MESSAGE classpath=141 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:32:29.377
+!MESSAGE buffering callback sts4.classpath.fXRXiEdZ car-service false 141
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:32:29.377
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:32:29.377
+!MESSAGE classpath=86 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:32:29.377
+!MESSAGE buffering callback sts4.classpath.fXRXiEdZ config-service false 86
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:32:29.378
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:32:29.378
+!MESSAGE classpath=132 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:32:29.379
+!MESSAGE buffering callback sts4.classpath.fXRXiEdZ eureka-service false 132
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:32:29.379
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:32:29.379
+!MESSAGE classpath=149 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:32:29.380
+!MESSAGE buffering callback sts4.classpath.fXRXiEdZ user-service false 149
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:32:29.380
+!MESSAGE executing callback sts4.classpath.fXRXiEdZ 6 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:32:29.586
+!MESSAGE executing callback sts4.classpath.fXRXiEdZ SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:57:52.295
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.fXRXiEdZ
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:57:52.295
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.fXRXiEdZ
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:57:52.295
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:57:52.295
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.fXRXiEdZ => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:57:53.428
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:57:53.428
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@6acf98ce[org.springframework.tooling.boot.ls:1.28.0.202109130547(id=961)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:57:53.429
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:57:54.323
+!MESSAGE Boot LS startup time from start to initialized: 894ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:57:54.373
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.lbxlYgyIisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:57:54.374
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:57:54.374
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:57:54.374
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:57:54.374
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:57:54.374
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.lbxlYgyI => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:57:54.375
+!MESSAGE classpath=137 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:57:54.375
+!MESSAGE buffering callback sts4.classpath.lbxlYgyI gateway-service false 137
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:57:54.375
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:57:54.376
+!MESSAGE classpath=141 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:57:54.376
+!MESSAGE buffering callback sts4.classpath.lbxlYgyI bike-service false 141
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:57:54.376
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:57:54.377
+!MESSAGE classpath=141 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:57:54.377
+!MESSAGE buffering callback sts4.classpath.lbxlYgyI car-service false 141
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:57:54.377
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:57:54.378
+!MESSAGE classpath=86 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:57:54.378
+!MESSAGE buffering callback sts4.classpath.lbxlYgyI config-service false 86
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:57:54.378
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:57:54.379
+!MESSAGE classpath=132 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:57:54.379
+!MESSAGE buffering callback sts4.classpath.lbxlYgyI eureka-service false 132
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:57:54.379
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:57:54.380
+!MESSAGE classpath=149 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:57:54.380
+!MESSAGE buffering callback sts4.classpath.lbxlYgyI user-service false 149
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:57:54.380
+!MESSAGE executing callback sts4.classpath.lbxlYgyI 6 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:57:54.579
+!MESSAGE executing callback sts4.classpath.lbxlYgyI SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:57:59.436
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.lbxlYgyI
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:57:59.437
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.lbxlYgyI
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:57:59.437
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:57:59.437
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.lbxlYgyI => OK
