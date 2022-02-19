@@ -5,8 +5,8 @@ spring:
     config:
       server:
         git:
-          default-label: config-server
-          uri: https://github.com/LuisLlanos7/sc-micro-config-server
+          default-label: main
+          uri: https://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@github.com/LuisLlanos7/sc-microservices-tutorial.git
           search-paths: config-data
   application:
     name: config-service
