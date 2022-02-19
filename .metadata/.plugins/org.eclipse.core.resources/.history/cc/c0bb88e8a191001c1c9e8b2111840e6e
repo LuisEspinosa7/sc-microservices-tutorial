@@ -1,0 +1,9 @@
+package com.tutorial.userservice.model;
+
+
+public class Car {
+	
+	private String brand;
+	private String model;
+
+}

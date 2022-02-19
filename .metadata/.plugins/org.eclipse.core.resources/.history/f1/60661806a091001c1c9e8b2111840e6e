@@ -1,0 +1,5 @@
+package com.tutorial.bikeservice.service;
+
+public class BikeService {
+
+}

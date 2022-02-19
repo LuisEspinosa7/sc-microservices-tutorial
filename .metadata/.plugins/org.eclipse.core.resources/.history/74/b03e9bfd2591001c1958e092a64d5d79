@@ -1,0 +1,32 @@
+package com.tutorial.carservice.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.tutorial.carservice.entity.Car;
+import com.tutorial.carservice.repository.CarRepository;
+import com.tutorial.userservice.entity.User;
+import com.tutorial.userservice.repository.UserRepository;
+
+@Service
+public class CarService {
+	
+	@Autowired
+	CarRepository carRepository;
+	
+	public List<Car> getAll(){
+		return userRepository.findAll();
+	}
+	
+	public Car getUserById(int id) {
+		return userRepository.findById(id).orElse(null);
+	}
+	
+	public Car save(Car user) {
+		Car userNew = userRepository.save(user);
+        return userNew;
+    }
+
+}
