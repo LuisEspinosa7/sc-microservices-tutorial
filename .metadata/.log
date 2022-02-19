@@ -6217,3 +6217,171 @@ Contains: Missing org.springframework.cloud:spring-cloud-starter-loadbalancer:ja
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 16:35:50.226
 !MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.VsdDoXWS => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 16:53:47.741
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 16:53:47.741
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@6acf98ce[org.springframework.tooling.boot.ls:1.28.0.202109130547(id=961)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 16:53:47.742
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 16:53:48.584
+!MESSAGE Boot LS startup time from start to initialized: 842ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 16:53:48.624
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.WGeCgiuoisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 16:53:48.624
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 16:53:48.624
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 16:53:48.624
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 16:53:48.624
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 16:53:48.624
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.WGeCgiuo => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 16:53:48.625
+!MESSAGE classpath=149 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 16:53:48.625
+!MESSAGE buffering callback sts4.classpath.WGeCgiuo user-service false 149
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 16:53:48.625
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 16:53:48.626
+!MESSAGE classpath=141 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 16:53:48.626
+!MESSAGE buffering callback sts4.classpath.WGeCgiuo bike-service false 141
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 16:53:48.626
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 16:53:48.627
+!MESSAGE classpath=141 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 16:53:48.627
+!MESSAGE buffering callback sts4.classpath.WGeCgiuo car-service false 141
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 16:53:48.627
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 16:53:48.627
+!MESSAGE classpath=86 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 16:53:48.627
+!MESSAGE buffering callback sts4.classpath.WGeCgiuo config-service false 86
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 16:53:48.627
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 16:53:48.628
+!MESSAGE classpath=132 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 16:53:48.628
+!MESSAGE buffering callback sts4.classpath.WGeCgiuo eureka-service false 132
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 16:53:48.628
+!MESSAGE executing callback sts4.classpath.WGeCgiuo 5 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 16:53:48.821
+!MESSAGE executing callback sts4.classpath.WGeCgiuo SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 16:58:15.212
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.WGeCgiuo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 16:58:15.212
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.WGeCgiuo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 16:58:15.212
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 16:58:15.212
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.WGeCgiuo => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 16:58:18.251
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 16:58:18.251
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@6acf98ce[org.springframework.tooling.boot.ls:1.28.0.202109130547(id=961)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 16:58:18.251
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 16:58:19.129
+!MESSAGE Boot LS startup time from start to initialized: 877ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 16:58:19.174
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.arCIeKijisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 16:58:19.174
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 16:58:19.174
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 16:58:19.174
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 16:58:19.174
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.arCIeKij => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 16:58:19.175
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 16:58:19.176
+!MESSAGE classpath=149 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 16:58:19.176
+!MESSAGE buffering callback sts4.classpath.arCIeKij user-service false 149
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 16:58:19.176
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 16:58:19.177
+!MESSAGE classpath=141 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 16:58:19.177
+!MESSAGE buffering callback sts4.classpath.arCIeKij bike-service false 141
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 16:58:19.177
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 16:58:19.178
+!MESSAGE classpath=141 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 16:58:19.179
+!MESSAGE buffering callback sts4.classpath.arCIeKij car-service false 141
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 16:58:19.179
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 16:58:19.179
+!MESSAGE classpath=86 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 16:58:19.180
+!MESSAGE buffering callback sts4.classpath.arCIeKij config-service false 86
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 16:58:19.180
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 16:58:19.180
+!MESSAGE classpath=132 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 16:58:19.181
+!MESSAGE buffering callback sts4.classpath.arCIeKij eureka-service false 132
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 16:58:19.181
+!MESSAGE executing callback sts4.classpath.arCIeKij 5 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 16:58:19.387
+!MESSAGE executing callback sts4.classpath.arCIeKij SUCCESS [done]
