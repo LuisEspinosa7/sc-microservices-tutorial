@@ -6943,3 +6943,201 @@ Contains: Missing org.springframework.cloud:spring-cloud-starter-netflix-eureka-
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 18:57:59.437
 !MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.lbxlYgyI => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 19:02:17.385
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 19:02:17.386
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@6acf98ce[org.springframework.tooling.boot.ls:1.28.0.202109130547(id=961)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 19:02:17.386
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 19:02:18.211
+!MESSAGE Boot LS startup time from start to initialized: 825ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 19:02:18.252
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.ScmahhSNisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 19:02:18.252
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 19:02:18.252
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 19:02:18.252
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 19:02:18.252
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.ScmahhSN => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 19:02:18.252
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 19:02:18.253
+!MESSAGE classpath=141 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 19:02:18.254
+!MESSAGE buffering callback sts4.classpath.ScmahhSN bike-service false 141
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 19:02:18.254
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 19:02:18.255
+!MESSAGE classpath=141 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 19:02:18.255
+!MESSAGE buffering callback sts4.classpath.ScmahhSN car-service false 141
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 19:02:18.255
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 19:02:18.256
+!MESSAGE classpath=86 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 19:02:18.256
+!MESSAGE buffering callback sts4.classpath.ScmahhSN config-service false 86
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 19:02:18.256
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 19:02:18.257
+!MESSAGE classpath=132 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 19:02:18.257
+!MESSAGE buffering callback sts4.classpath.ScmahhSN eureka-service false 132
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 19:02:18.257
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 19:02:18.258
+!MESSAGE classpath=137 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 19:02:18.258
+!MESSAGE buffering callback sts4.classpath.ScmahhSN gateway-service false 137
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 19:02:18.258
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 19:02:18.259
+!MESSAGE classpath=149 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 19:02:18.259
+!MESSAGE buffering callback sts4.classpath.ScmahhSN user-service false 149
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 19:02:18.259
+!MESSAGE executing callback sts4.classpath.ScmahhSN 6 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 19:02:18.469
+!MESSAGE executing callback sts4.classpath.ScmahhSN SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 19:02:40.784
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.ScmahhSN
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 19:02:40.785
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.ScmahhSN
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 19:02:40.785
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 19:02:40.785
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.ScmahhSN => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 19:02:42.539
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 19:02:42.540
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@6acf98ce[org.springframework.tooling.boot.ls:1.28.0.202109130547(id=961)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 19:02:42.540
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 19:02:43.421
+!MESSAGE Boot LS startup time from start to initialized: 881ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 19:02:43.470
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.ixFdylbNisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 19:02:43.470
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 19:02:43.470
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 19:02:43.470
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 19:02:43.470
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 19:02:43.470
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.ixFdylbN => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 19:02:43.471
+!MESSAGE classpath=141 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 19:02:43.471
+!MESSAGE buffering callback sts4.classpath.ixFdylbN bike-service false 141
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 19:02:43.472
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 19:02:43.472
+!MESSAGE classpath=141 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 19:02:43.472
+!MESSAGE buffering callback sts4.classpath.ixFdylbN car-service false 141
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 19:02:43.472
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 19:02:43.472
+!MESSAGE classpath=86 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 19:02:43.473
+!MESSAGE buffering callback sts4.classpath.ixFdylbN config-service false 86
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 19:02:43.473
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 19:02:43.473
+!MESSAGE classpath=132 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 19:02:43.473
+!MESSAGE buffering callback sts4.classpath.ixFdylbN eureka-service false 132
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 19:02:43.473
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 19:02:43.474
+!MESSAGE classpath=137 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 19:02:43.474
+!MESSAGE buffering callback sts4.classpath.ixFdylbN gateway-service false 137
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 19:02:43.474
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 19:02:43.474
+!MESSAGE classpath=149 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 19:02:43.475
+!MESSAGE buffering callback sts4.classpath.ixFdylbN user-service false 149
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 19:02:43.475
+!MESSAGE executing callback sts4.classpath.ixFdylbN 6 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 19:02:43.664
+!MESSAGE executing callback sts4.classpath.ixFdylbN SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 19:03:35.182
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.ixFdylbN
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 19:03:35.182
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.ixFdylbN
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 19:03:35.182
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-19 19:03:35.182
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.ixFdylbN => OK
